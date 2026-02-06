@@ -1,0 +1,29 @@
+# Binaries
+centralauth
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test
+*.test
+*.out
+coverage.txt
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Config (contains secrets)
+.env
+
+# SDK
+sdk/node_modules/
+sdk/dist/
